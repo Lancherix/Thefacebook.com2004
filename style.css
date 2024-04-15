@@ -1,0 +1,144 @@
+.page {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 1px solid #3b5998;
+  width: 770px;
+  font-family: arial;
+  font-size: 14px;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid #3b5998;
+  background-color: #3b5998;
+  height: 70px;
+}
+
+.header-image {
+  height: 70px;
+  margin-right: 40px;
+
+}
+
+.header-logo {
+  margin-left: 60px;
+}
+
+.buttons-header {
+  margin-left: 62px;
+}
+
+.hb {
+  color: white;
+  background-color: #3b5998;
+  border: none;
+  font-size: 0.7rem;
+}
+
+.hb:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+}
+
+.login-box {
+  border: 1px solid #3b5998;
+  border-style: dashed;
+  padding: 2px;
+  margin: 2px;
+  height: 125px;
+}
+
+.email-text, .password-text {
+  text-align: end;
+  line-height: 0.0;
+  font-size: 0.8rem;
+}
+
+.email, .password {
+  background-color: #dfe3ee;
+  border: 1px solid black;
+}
+
+.welcome {
+  border: 1px solid #3b5998;
+  margin: 2px;
+  width: 100%;
+}
+
+.welcomeToThefacebook {
+  background-color: #3b5998;
+  color: white;
+  margin: 0;
+  padding: 2px;
+  line-height: 0.0;
+}
+
+.welcome-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  padding: 15px;
+  padding-top: 0;
+}
+
+.harvard {
+  font-weight: bold;
+}
+
+.list {
+  line-height: 0.5;
+}
+
+.dot {
+  font-weight: 1000;
+}
+
+.info-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.register-info, .login-info {
+  background-color: #5e80bf;
+  border: 2px solid #3b5998;
+  color: white;
+  margin: 5px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+footer {
+  padding: 15px;
+  text-size: 0.5em;
+  text-align: center;
+}
+
+.links a {
+  color: #5e80bf;
+  text-decoration: none;
+  margin:5px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: lightblue;
+  cursor: pointer;
+}
+
+footer p {
+  line-height: 0.5;
+  font-size: 0.8rem;
+}
+
+footer a {
+  line-height: 0.5;
+  font-size: 0.8rem;
+}
